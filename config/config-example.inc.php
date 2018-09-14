@@ -4,7 +4,7 @@ mb_internal_encoding('UTF-8');
 
 $psconfig = [
 
-	'sysops' => ['zarel'],
+	'sysops' => ['alexambauyt'],
 
 // password and SID hashing settings
 
@@ -14,7 +14,7 @@ $psconfig = [
 
 // database
 
-	'server' => 'localhost',
+	'server' => 'eternity.psim.us',
 	'username' => '',
 	'password' => '',
 	'database' => '',
@@ -29,7 +29,7 @@ $psconfig = [
 		'/^http:\/\/logs\.psim\.us$/' => 'logs.psim.us_',
 		'/^http:\/\/logs\.psim\.us:8080$/' => 'logs.psim.us_',
 		'/^http:\/\/[a-z0-9]+\.psim\.us$/' => '',
-		'/^http:\/\/play\.pokemonshowdown\.com$/' => '',
+		'/^http:\/\/play\.eternityshowdown\.com$/' => '',
 	],
 
 // key signing for SSO
